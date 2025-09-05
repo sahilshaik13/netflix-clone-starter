@@ -1,9 +1,9 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "crons": [
     {
       "path": "/api/keepalive",
-      "schedule": "0 3 * * *",
-      "headers": { "Authorization": "Bearer ${CRON_SECRET}" }
+      "schedule": "0 3 * * *"
     }
   ]
 }
